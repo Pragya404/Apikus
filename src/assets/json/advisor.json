@@ -1,0 +1,23 @@
+[
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/advisor1.png",
+        "name": "Cmdr. Mukesh Saini",
+        "profile": "Strategic Mentor and Techno-Legal",
+        "description": "With over 15 years of experience, including 9 years in the financial services sector, I specialize in leading high-performing teams of 50+ to deliver exceptional results.",
+        "linkedin": "https://www.linkedin.com/in/commandersaini/"
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/advisor2.png",
+        "name": "Adithya Vadapalli",
+        "profile": "Researcher in Data Leak-Proof Systems",
+        "description": "With over 15 years of experience, including 9 years in the financial services sector, I specialize in leading high-performing teams of 50+ to deliver exceptional results.",
+        "linkedin": "https://www.linkedin.com/in/adithya-vadapalli-57ab5544/"
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/advisor3.png",
+        "name": "Amol Naik",
+        "profile": "Fractional Chief Information Security Officer",
+        "description": "With over 15 years of experience, including 9 years in the financial services sector, I specialize in leading high-performing teams of 50+ to deliver exceptional results.",
+        "linkedin": "https://www.linkedin.com/in/amolnaik4/"
+    }
+]

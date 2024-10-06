@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+body {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: #fff;
+  color: #212529;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  text-align: center;
+  font-family: Geist, Inter, system-ui, sans-serif !important;
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.about_page_section1 {
+  color: #fff;
+  padding: 50px 0;
+}
+.about_page {
+  background: radial-gradient(50% 50% at 50% 50%, #4a30dc03 0, #8fb1e438 100%);
+  padding-bottom: 50px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  right: 0;
+}
+img {
+  vertical-align: middle;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+#part1 {
+
+  background: url(https://www.apikuslabs.com/assets/images/v1/about_background.png)
+    no-repeat top;
+  background-size: cover;
+  padding-top: 100px;
+  display: block;
+  unicode-bidi: isolate;
+  img {
+    height: auto;
+    max-width: 500px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 3.438rem;
+    line-height: 3.5rem;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+}
+#part2 {
+  margin-top: 5rem;
+  img {
+    height: auto;
+    width: 100%;
+  }
+  h2 {
+    color: #000;
+    line-height: 55px;
+    text-align: left;
+    font-weight: 550;
+  }
+  p {
+    text-align: justify;
+  }
+  li {
+    line-height: 2.2rem;
+  }
+}
+
+.btns {
+  background: linear-gradient(270deg, #628fc4, #414791);
+  border: 0;
+  border-radius: 100px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px 25px;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.btns:hover {
+  box-shadow: 0 0 10px #000;
+}
+#part3 {
+  padding: 0 5%;
+  margin-top: 5rem;
+  h2 {
+    color: #000;
+    line-height: 55px;
+    text-align: left;
+    font-weight: 550;
+  }
+  .part3-li {
+    align-items: baseline;
+    display: flex;
+    justify-content: start;
+  }
+  .part3-li2 {
+    list-style-type: disc;
+    line-height: 2.2rem;
+  }
+  p {
+    text-align: justify;
+  }
+}
+#part4 {
+  margin-top: 5rem;
+  #value-container {
+    margin: 0;
+    padding: 2% !important;
+    margin-top: -5rem;
+  }
+  #values {
+    max-width: 200px;
+    min-width: 100px;
+    margin: 0;
+    padding: 0;
+  }
+  .values6,
+  .values1 {
+    margin-top: 1.5px !important;
+  }
+}
+#part5{
+  padding: 2rem;
+  #partB{
+    margin-top: 5rem !important;
+  }
+}
+@media (max-width:1400px) {
+  #part3{
+    flex-direction: row-reverse;
+    left{
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 992px) {
+  #part1 {
+    h1 {
+      font-size: 2.2rem !important;
+      line-height: normal;
+    }
+    img {
+      max-width: 310px;
+      height: auto;
+    }
+    p {
+      font-size: 1.13rem;
+    }
+  }
+  #part2 {
+    align-items: center;
+    text-align: center !important;
+    img {
+      width: 400px;
+      align-items: center;
+    }
+    p {
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
+    #list {
+      text-align: center !important;
+    }
+  }
+}
+@media (max-width: 1100px) {
+  #part1 {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
+
+.slick-dots {
+  bottom: -25px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: gray;
+}
+
+.slick-dots li.slick-active button:before {
+  color: black;
+}

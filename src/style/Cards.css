@@ -1,0 +1,105 @@
+#card {
+  width: 15rem !important;
+  height: 18rem !important;
+  padding: 0 !important;
+  border-radius: 10px !important;
+  border: none !important;
+}
+#cardbtn {
+  position: absolute !important;
+  background: none !important;
+  border: none !important;
+  margin: -25% !important;
+  margin-left: 85% !important;
+}
+#cardimg {
+  width: 100px !important;
+  height: 100px !important;
+  position: absolute !important;
+  margin-top: -20% !important;
+  margin-left: 30% !important;
+  border-radius: 50% !important;
+  filter: grayscale(100%) !important;
+
+}
+#cardtitle {
+  margin-top: 50px !important;
+  font-size: large !important;
+}
+#profile {
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  text-align: center !important;
+}
+#description {
+  font-size: 13px !important;
+  text-align: center !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-line-clamp: 3 !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-wrap: wrap !important;
+  margin-top: -12px !important;
+  text-overflow: ellipsis !important;
+}
+#card:hover {
+  #profile,
+  #cardtitle {
+    visibility: hidden !important;
+  }
+  #cardimg {
+    width: 60px !important;
+    height: 60px !important;
+    position: absolute !important;
+    margin-top: -27% !important;
+    margin-left: 5% !important;
+    border-radius: 50% !important;
+  }
+  #description {
+    margin-top: -60% !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    white-space: normal !important;
+  }
+}
+
+
+/* INTERN CARDS */
+#Icard {
+  width: 13rem !important;
+  height: 13rem !important;
+  padding: 0 !important;
+  border-radius: 10px !important;
+  border: none !important;
+  background: none !important;
+  text-align: center !important;
+  align-content: center !important;
+}
+#Icardimg {
+  width: 100px !important;
+  height: 100px !important;
+  margin-top: 20px !important;
+  margin-left: 28% !important;
+  border-radius: 50% !important;
+  margin-bottom: -10px !important;
+  filter: grayscale(100%) !important;
+}
+#Icardtitle {
+  font-size: large !important;
+}
+.slick-dots {
+  bottom: -25px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: gray;
+}
+
+.slick-dots li.slick-active button:before {
+  color: black;
+}
+.rotate-180 {
+  transform: rotate(180deg);
+}

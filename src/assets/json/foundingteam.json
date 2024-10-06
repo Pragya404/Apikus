@@ -1,0 +1,72 @@
+[
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/management_team1.png",
+        "name": "Manish Kumar",
+        "profile": "Founder (Technology)",
+        "description": "With over 15 years of experience, including 9 years in the financial services sector, I specialize in leading high-performing teams of 50+ to deliver exceptional results.",
+        "linkedin": "https://www.linkedin.com/in/manishapikus/"
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/management_team2.png",
+        "name": "Manish K. Yadav",
+        "profile": "Co-Founder (Mobile Architect)",
+        "description": "With over 11 years of experience in building and scaling apps for major consumer companies, I excel in tackling complex challenges, exploring new domains, and creating adaptable systems.",
+        "linkedin": "https://www.linkedin.com/in/manishkyadav/"
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/management_team3.png",
+        "name": "Vik Angelo",
+        "profile": "GTM Strategy",
+        "description": "Results-oriented Marketing and Sales Ad-Tech Professional with 16+ years driving successful mobile and digital campaigns. Proven track record of managing $55 million in ad revenue across 100+ campaigns. Skilled in leveraging data-driven insights and strategic partnerships to maximize performance.",
+        "linkedin": "https://www.linkedin.com/in/vikangelo/"
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/management_team4.png",
+        "name": "Alok Baid",
+        "profile": "Product Management",
+        "description": "Alok is a seasoned fintech product manager with 9+ years of experience in open banking, remittances, and payments. Previously leading teams at Airbase, Airtel and MobiKwik.",
+        "linkedin": "https://www.linkedin.com/in/alok-baid-3335b862/"
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/management_team5.png",
+        "name": "Deepak Kumar",
+        "profile": "Operations Innovator",
+        "description": "Seasoned professional with extensive experience in handling operational activities. He specializes in project management, vendor management, client relationship management, sales support, and resource management.",
+        "linkedin": "https://www.linkedin.com/in/deepak-kumar-7ab93613a/"
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/management_team6.png",
+        "name": "Akshay Kumar",
+        "profile": "Principal Technical Officer",
+        "description": "",
+        "linkedin": ""
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/intern3.png",
+        "name": "Akshay Srinivasan",
+        "profile": "Senior Data Engineer",
+        "description": "",
+        "linkedin": "https://www.linkedin.com/in/akshay-srinivasan-000682128/"
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/intern3.png",
+        "name": "Sumit Gupta",
+        "profile": "Infrastructure Architect",
+        "description": "",
+        "linkedin": ""
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/management_team9.png",
+        "name": "Surabhi Airan",
+        "profile": "Backend Engineer",
+        "description": "",
+        "linkedin": "https://www.linkedin.com/in/surbhi-airan/"
+    },
+    {
+        "img": "https://www.apikuslabs.com/assets/images/v1/intern3.png",
+        "name": "Vaibhav Agrawal",
+        "profile": "Technology Architect",
+        "description": "",
+        "linkedin": ""
+    }
+]
