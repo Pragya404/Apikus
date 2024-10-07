@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/Pragya404/Apikus.git",
   "name": "app",
   "version": "0.1.0",
   "private": true,
@@ -9,7 +10,6 @@
     "ajv": "^8.17.1",
     "ajv-keywords": "^5.1.0",
     "bootstrap": "^5.3.3",
-    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.5",
     "react-dom": "^18.3.1",
@@ -25,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build" 
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@iconify/react": "^5.0.2"
+    "@iconify/react": "^5.0.2",
+    "gh-pages": "^6.1.1"
   }
 }
