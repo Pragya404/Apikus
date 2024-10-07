@@ -2,11 +2,10 @@ import React, {useEffect} from 'react'
 import Card from "react-bootstrap/Card";
 import File from "../assets/json/advisor.json";
 import Button from "react-bootstrap/Card";
-import '../style/Cards.css'
 import {ReactComponent as Icon} from '../assets/svg/linkedin.svg'
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
+
 
 
 function AdvisorCards() {
@@ -44,6 +43,24 @@ function AdvisorCards() {
           settings: {
             slidesToShow: 2, 
             slidesToScroll: 2,
+            infinite: false,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 480, 
+          settings: {
+            slidesToShow: 1, 
+            slidesToScroll: 1,
+            infinite: false,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 320, 
+          settings: {
+            slidesToShow: 1, 
+            slidesToScroll: 1,
             infinite: false,
             dots: true,
           },

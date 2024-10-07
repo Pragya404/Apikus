@@ -13,33 +13,34 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import InternCards from "../components/InternCards";
 import FoundingCards from "../components/FoundingCards";
 import AdvisorCards from "../components/AdvisorCards";
-
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
+import "../style/Slick.css";
+import "../style/Cards.css"
 function Home() {
-  const SlideView = () => {
-    const [currentPosition, setCurrentPosition] = useState(0);
-    const containerRef = useRef(null);
+  // const SlideView = () => {
+  //   const [currentPosition, setCurrentPosition] = useState(0);
+  //   const containerRef = useRef(null);
 
-    const handleMouseDown = (e) => {
-      const startX = e.clientX;
-      const startPosition = currentPosition;
+  //   const handleMouseDown = (e) => {
+  //     const startX = e.clientX;
+  //     const startPosition = currentPosition;
 
-      const handleMouseMove = (e) => {
-        const deltaX = e.clientX - startX;
-        setCurrentPosition(startPosition + deltaX);
-      };
+  //     const handleMouseMove = (e) => {
+  //       const deltaX = e.clientX - startX;
+  //       setCurrentPosition(startPosition + deltaX);
+  //     };
 
-      const handleMouseUp = () => {
-        window.removeEventListener("mousemove", handleMouseMove);
-        window.removeEventListener("mouseup", handleMouseUp);
-      };
+  //     const handleMouseUp = () => {
+  //       window.removeEventListener("mousemove", handleMouseMove);
+  //       window.removeEventListener("mouseup", handleMouseUp);
+  //     };
 
-      window.addEventListener("mousemove", handleMouseMove);
-      window.addEventListener("mouseup", handleMouseUp);
-    };
-  };
+  //     window.addEventListener("mousemove", handleMouseMove);
+  //     window.addEventListener("mouseup", handleMouseUp);
+  //   };
+  // };
   const settings = {
     dots: true,
     speed: 500,
@@ -49,10 +50,28 @@ function Home() {
     autoplay: false,
     responsive: [
       {
+        breakpoint: 1400,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 5,
+          infinite: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          infinite: false,
+          dots: true,
+        },
+      },
+      {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           infinite: false,
           dots: true,
         },
@@ -71,6 +90,24 @@ function Home() {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+          infinite: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: false,
           dots: true,
         },

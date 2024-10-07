@@ -2,11 +2,8 @@ import React, {useEffect} from "react";
 import Card from "react-bootstrap/Card";
 import File from "../assets/json/foundingteam.json";
 import Button from "react-bootstrap/Card";
-import "../style/Cards.css";
 import { ReactComponent as Icon } from "../assets/svg/linkedin.svg";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 
 function FoundingCards() {
@@ -47,6 +44,24 @@ function FoundingCards() {
           dots: true,
         },
       },
+      {
+        breakpoint: 480, 
+        settings: {
+          slidesToShow: 1, 
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 320, 
+        settings: {
+          slidesToShow: 1, 
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+        },
+      },
     ],
   };
   console.log("InternCards component rendered");
@@ -57,7 +72,7 @@ function FoundingCards() {
     <div className="row d-flex text-center justify-content-center">
      <Slider {...settings} style={{transition:"0.3 ease-in-out"}}>
       {file.map((element, index) => (
-        <Card className="m-2" id="card" key={index}>
+        <Card className="mb-5" id="card" key={index}>
           <Card.Img
             id="cardbg"
             src="https://www.apikuslabs.com/image/personal_card.svg"

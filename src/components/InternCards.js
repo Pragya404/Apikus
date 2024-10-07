@@ -44,6 +44,24 @@ function InternCards() {
           dots: true,
         },
       },
+      {
+        breakpoint: 480, 
+        settings: {
+          slidesToShow: 1, 
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 320, 
+        settings: {
+          slidesToShow: 1, 
+          slidesToScroll: 1,
+          infinite: false,
+          dots: true,
+        },
+      },
     ],
   };
   console.log("InternCards component rendered");

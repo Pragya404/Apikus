@@ -1,0 +1,25 @@
+ 
+  .slick-dots {
+    /* bottom: -25px; */
+    align-items: center;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 10px;
+    color: gray;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: black;
+  }
+  /* .rotate-180 {
+    transform: rotate(180deg);
+  } */
+ 
+  @media (max-width:320px) {
+    .slick-dots{
+      bottom:-25px;
+      align-items: center;
+      left: -5px;
+    }
+  } 

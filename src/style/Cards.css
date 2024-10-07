@@ -20,7 +20,6 @@
   margin-left: 30% !important;
   border-radius: 50% !important;
   filter: grayscale(100%) !important;
-
 }
 #cardtitle {
   margin-top: 50px !important;
@@ -64,11 +63,79 @@
   }
 }
 
+@media (max-width: 576px) {
+  #card {
+    width: 12rem !important;
+    height: 15rem !important;
+    padding: 0 !important;
+    border-radius: 10px !important;
+    border: none !important;
+  }
+  #cardbtn {
+    position: absolute !important;
+    background: none !important;
+    border: none !important;
+    margin: -25% !important;
+    margin-left: 80% !important;
+  }
+  #cardimg {
+    width: 80px !important;
+    height: 80px !important;
+    position: absolute !important;
+    margin-top: -20% !important;
+    margin-left: 25% !important;
+    border-radius: 50% !important;
+    filter: grayscale(100%) !important;
+  }
+  #cardtitle {
+    margin-top: 30px !important;
+    font-size: medium !important;
+  }
+  #profile {
+    font-weight: 500 !important;
+    font-size: 13px !important;
+    text-align: center !important;
+  }
+  #description {
+    font-size: 11px !important;
+    text-align: center !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-line-clamp: 2 !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    text-wrap: wrap !important;
+    margin-top: -12px !important;
+    text-overflow: ellipsis !important;
+  }
+  #card:hover {
+    height: 17rem !important;
+    #profile,
+    #cardtitle {
+      visibility: hidden !important;
+      font-size: 0px;
+    }
+    #cardimg {
+      width: 45px !important;
+      height: 45px !important;
+      position: absolute !important;
+      margin-top: -27% !important;
+      margin-left: 5% !important;
+      border-radius: 50% !important;
+    }
+    #description {
+      margin-top: -60% !important;
+      overflow: visible !important;
+      text-overflow: clip !important;
+      white-space: normal !important;
+    }
+  }
+}
 
-/* INTERN CARDS */
+
 #Icard {
-  width: 13rem !important;
-  height: 13rem !important;
+  width: 12rem !important;
+  height: 12rem !important;
   padding: 0 !important;
   border-radius: 10px !important;
   border: none !important;
@@ -80,7 +147,7 @@
   width: 100px !important;
   height: 100px !important;
   margin-top: 20px !important;
-  margin-left: 28% !important;
+  margin-left: 22% !important;
   border-radius: 50% !important;
   margin-bottom: -10px !important;
   filter: grayscale(100%) !important;
@@ -88,18 +155,8 @@
 #Icardtitle {
   font-size: large !important;
 }
-.slick-dots {
-  bottom: -25px;
-}
-
-.slick-dots li button:before {
-  font-size: 12px;
-  color: gray;
-}
-
-.slick-dots li.slick-active button:before {
-  color: black;
-}
-.rotate-180 {
-  transform: rotate(180deg);
+@media (max-width:576px) {
+  #Icardtitle {
+    font-size: medium !important;
+  } 
 }

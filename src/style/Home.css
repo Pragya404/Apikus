@@ -33,6 +33,21 @@ body {
   left: 0;
   right: 0;
 }
+.btns {
+  background: linear-gradient(270deg, #628fc4, #414791);
+  border: 0;
+  border-radius: 100px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px 25px;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.btns:hover {
+  box-shadow: 0 0 10px #000;
+}
 img {
   vertical-align: middle;
   overflow-clip-margin: content-box;
@@ -78,22 +93,6 @@ img {
   li {
     line-height: 2.2rem;
   }
-}
-
-.btns {
-  background: linear-gradient(270deg, #628fc4, #414791);
-  border: 0;
-  border-radius: 100px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  padding: 15px 25px;
-  touch-action: manipulation;
-  user-select: none;
-  -webkit-user-select: none;
-}
-.btns:hover {
-  box-shadow: 0 0 10px #000;
 }
 #part3 {
   padding: 0 5%;
@@ -149,6 +148,13 @@ img {
     }
   }
 }
+@media (max-width: 1100px) {
+  #part1 {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
 @media (max-width: 992px) {
   #part1 {
     h1 {
@@ -181,23 +187,56 @@ img {
     }
   }
 }
-@media (max-width: 1100px) {
-  #part1 {
-    h1 {
-      font-size: 3rem;
+/* @media (min-width:786px) {
+  #part4{
+    #value-container{
+      padding-top:50px !important;
+      padding-left: 125px !important;
+      padding-right: 125px !important;
     }
   }
-}
-
-.slick-dots {
-  bottom: -25px;
-}
-
-.slick-dots li button:before {
-  font-size: 12px;
-  color: gray;
-}
-
-.slick-dots li.slick-active button:before {
-  color: black;
+} */
+@media (max-width:320px) {
+  #part1{
+    padding-top: 20px;
+    h1{
+      font-size: 2rem !important;
+    }
+    p{
+      font-size: 1rem;;
+    }
+  }
+  #part2{
+    font-size: 13px;
+    
+    h2{
+      line-height: 2.2rem;
+    }
+    li{
+      line-height: 1.5rem;
+      text-align: left;
+    }
+  }
+  #part3{
+    font-size: 13px;
+    text-align: center;
+    h2{
+      line-height: 2.2rem;
+      text-align: center;
+    }
+    .part3-li {
+      line-height: 1.5rem;
+      text-align: left;
+    }
+     .part3-li2 {
+      line-height: 1.5rem;
+      text-align: left;
+    }
+  }
+  #part4{
+    #values{
+      width: 150px;
+      margin-bottom: -100px;
+    }
+  }
 }

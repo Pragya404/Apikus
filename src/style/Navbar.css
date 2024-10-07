@@ -6,22 +6,6 @@
   transition: background-color 0.3s ease;
 }
 
-@media (max-width: 768px) {
-  .navbar {
-    background-color: #000;
-    padding: 2px 0;
-  }
-  #navlink {
-    font-size: 15px !important;
-  }
-  #logo {
-    width: 115px !important;
-  }
-  .navbar-collapse {
-    height: 290px;
-  }
-}
-
 .navbar-scrolled {
   background-color: black !important;
   transition: background-color 0.3s ease;
@@ -69,4 +53,34 @@
 }
 #navbtn a:hover {
   color: #000;
+}
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #000;
+    padding: 2px 0;
+  }
+  #navlink {
+    font-size: 15px !important;
+  }
+  #logo {
+    width: 115px !important;
+  }
+  .navbar-collapse {
+    height: 290px;
+  }
+}
+@media (max-width: 480px) {
+  .navbar {
+    background-color: #000;
+    height:fit-content !important;
+  }
+  #navlink {
+    font-size: 12px !important;
+  }
+  #logo {
+    width: 100px !important;
+  }
+  .navbar-collapse {
+    height: 250px;
+  }
 }
