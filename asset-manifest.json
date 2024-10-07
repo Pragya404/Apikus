@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pragya404/Apikus.git/static/css/main.2921cb1e.css",
-    "main.js": "/Pragya404/Apikus.git/static/js/main.5849bfa1.js",
+    "main.js": "/Pragya404/Apikus.git/static/js/main.e93aea11.js",
     "static/js/453.a6a97343.chunk.js": "/Pragya404/Apikus.git/static/js/453.a6a97343.chunk.js",
     "static/media/value4.svg": "/Pragya404/Apikus.git/static/media/value4.b4e497ef0e76699a4e00b8387405c5f3.svg",
     "static/media/value3.svg": "/Pragya404/Apikus.git/static/media/value3.a6a67dc18ba90701846721306ea1188c.svg",
@@ -17,11 +17,11 @@
     "static/media/linkedin.svg": "/Pragya404/Apikus.git/static/media/linkedin.bfba221ee5c3849988bb33355aac242b.svg",
     "index.html": "/Pragya404/Apikus.git/index.html",
     "main.2921cb1e.css.map": "/Pragya404/Apikus.git/static/css/main.2921cb1e.css.map",
-    "main.5849bfa1.js.map": "/Pragya404/Apikus.git/static/js/main.5849bfa1.js.map",
+    "main.e93aea11.js.map": "/Pragya404/Apikus.git/static/js/main.e93aea11.js.map",
     "453.a6a97343.chunk.js.map": "/Pragya404/Apikus.git/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2921cb1e.css",
-    "static/js/main.5849bfa1.js"
+    "static/js/main.e93aea11.js"
   ]
 }
